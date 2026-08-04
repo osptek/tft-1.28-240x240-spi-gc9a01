@@ -33,7 +33,7 @@ OSPTEK **1.28″ 240×240 TFT** is a round **SPI** color display module driven b
 
 Spec ID (repository name): `1.28-tft-240x240-spi-gc9a01`
 
-Current module version: **YDP128HB001-P8**. Mechanical outline follows [`docs/YDP128HB001-P8 外形图.pdf`](./docs/YDP128HB001-P8%20%E5%A4%96%E5%BD%A2%E5%9B%BE.pdf).
+Current module version: **YDP128HB001-P8**. Screen specification follows [`docs/YDP128H010-V2.pdf`](./docs/YDP128H010-V2.pdf); mechanical outline follows [`docs/YDP128HB001-P8 外形图.pdf`](./docs/YDP128HB001-P8%20%E5%A4%96%E5%BD%A2%E5%9B%BE.pdf).
 
 ## Specifications
 
@@ -45,7 +45,7 @@ Current module version: **YDP128HB001-P8**. Mechanical outline follows [`docs/YD
 | Interface | SPI |
 | Driver IC | GC9A01 |
 
-> Full outline, FPC definition, power, and timing follow the mechanical drawing / driver IC datasheet.
+> Full outline, FPC definition, power, and timing follow the screen datasheet / mechanical drawing / driver IC datasheet.
 
 ## Sample projects
 
@@ -72,6 +72,7 @@ Current module version: **YDP128HB001-P8**. Mechanical outline follows [`docs/YD
 
 | Resource | Link |
 | ---- | ---- |
+| Screen datasheet (YDP128H010-V2) | [`docs/YDP128H010-V2.pdf`](./docs/YDP128H010-V2.pdf) |
 | Mechanical outline (YDP128HB001-P8) | [`docs/YDP128HB001-P8 外形图.pdf`](./docs/YDP128HB001-P8%20%E5%A4%96%E5%BD%A2%E5%9B%BE.pdf) |
 | Driver IC datasheet (GC9A01) | [`docs/LCD_DST_3015_GC_9_A01_Data_Sheet_V1_0_Preliminary_2_35d4b172aa.pdf`](./docs/LCD_DST_3015_GC_9_A01_Data_Sheet_V1_0_Preliminary_2_35d4b172aa.pdf) |
 | Init sequence (text) | [`docs/HSD1.28+GC9A01 initial code 20191231 优美K15.txt`](./docs/HSD1.28+GC9A01%20initial%20code%2020191231%20%E4%BC%98%E7%BE%8EK15.txt) |

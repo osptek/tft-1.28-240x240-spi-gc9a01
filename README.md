@@ -33,7 +33,7 @@ OSPTEK **1.28 寸 240×240 TFT** 是一款 **SPI** 接口彩色圆形显示模�
 
 规格标识（仓库名）：`1.28-tft-240x240-spi-gc9a01`
 
-当前模组版本：**YDP128HB001-P8**。外形细节以 [`docs/YDP128HB001-P8 外形图.pdf`](./docs/YDP128HB001-P8%20%E5%A4%96%E5%BD%A2%E5%9B%BE.pdf) 为准。
+当前模组版本：**YDP128HB001-P8**。屏幕规格以 [`docs/YDP128H010-V2.pdf`](./docs/YDP128H010-V2.pdf) 为准；外形以 [`docs/YDP128HB001-P8 外形图.pdf`](./docs/YDP128HB001-P8%20%E5%A4%96%E5%BD%A2%E5%9B%BE.pdf) 为准。
 
 ## 规格参数
 
@@ -45,7 +45,7 @@ OSPTEK **1.28 寸 240×240 TFT** 是一款 **SPI** 接口彩色圆形显示模�
 | 接口 | SPI |
 | 驱动 IC | GC9A01 |
 
-> 完整外形尺寸、FPC 定义、供电与时序以外形图 / 驱动手册为准。
+> 完整外形尺寸、FPC 定义、供电与时序以屏幕规格书 / 外形图 / 驱动手册为准。
 
 ## 示例工程
 
@@ -72,6 +72,7 @@ OSPTEK **1.28 寸 240×240 TFT** 是一款 **SPI** 接口彩色圆形显示模�
 
 | 资料 | 链接 |
 | ---- | ---- |
+| 屏幕规格书（YDP128H010-V2） | [`docs/YDP128H010-V2.pdf`](./docs/YDP128H010-V2.pdf) |
 | 外形图（YDP128HB001-P8） | [`docs/YDP128HB001-P8 外形图.pdf`](./docs/YDP128HB001-P8%20%E5%A4%96%E5%BD%A2%E5%9B%BE.pdf) |
 | 驱动 IC 数据手册（GC9A01） | [`docs/LCD_DST_3015_GC_9_A01_Data_Sheet_V1_0_Preliminary_2_35d4b172aa.pdf`](./docs/LCD_DST_3015_GC_9_A01_Data_Sheet_V1_0_Preliminary_2_35d4b172aa.pdf) |
 | 初始化序列（文本） | [`docs/HSD1.28+GC9A01 initial code 20191231 优美K15.txt`](./docs/HSD1.28+GC9A01%20initial%20code%2020191231%20%E4%BC%98%E7%BE%8EK15.txt) |
