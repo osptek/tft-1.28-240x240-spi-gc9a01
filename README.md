@@ -48,15 +48,11 @@
 
 <p align="center"><img alt="YDP128HB001-P8" src="./images/YDP128HB001-P8.png" width="320" /></p>
 
-**说明：** 模组。
-
 ---
 
 ## YDP128H010-V2
 
 <p align="center"><img alt="YDP128H010-V2" src="./images/YDP128H010-V2.png" width="320" /></p>
-
-**说明：** 模组。
 
 ---
 
