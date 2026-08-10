@@ -56,7 +56,7 @@
 
 <p align="center"><img alt="YDP128HB001-P8" src="./images/YDP128HB001-P8.png" width="320" /></p>
 
-**说明：** 模组。
+**说明：** 模组，所用单屏型号为 YDP128H010-V2。
 
 ---
 

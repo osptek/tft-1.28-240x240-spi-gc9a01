@@ -56,7 +56,7 @@ Repo id: `1.28-tft-240x240-spi-gc9a01`
 
 <p align="center"><img alt="YDP128HB001-P8" src="./images/YDP128HB001-P8.png" width="320" /></p>
 
-**Notes:** Module.
+**Notes:** Module; bare panel model is YDP128H010-V2.
 
 ---
 
