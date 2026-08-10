@@ -2,7 +2,7 @@
 
 <h1 align="center">OSPTEK 1.28″ TFT 240×240（GC9A01 · SPI）</h1>
 
-<p align="center"><b>TFT 模组 · SPI · GC9A01 · 多版本索引</b></p>
+<p align="center"><b>圆形 TFT · SPI · GC9A01 · 多版本索引</b></p>
 
 <p align="center"><a href="./README_EN.md">English</a> | 简体中文</p>
 
@@ -17,8 +17,8 @@
 
 - [说明](#说明)
 - [版本一览](#版本一览)
-- [YDP128HB001-P8](#ydp128hb001-p8)
 - [YDP128H010-V2](#ydp128h010-v2)
+- [YDP128HB001-P8](#ydp128hb001-p8)
 - [如何切换分支](#如何切换分支)
 - [购买链接](#购买链接)
 - [技术支持](#技术支持)
@@ -27,7 +27,7 @@
 
 ## 说明
 
-本仓库收录 **1.28 寸 240×240 TFT（SPI · GC9A01）** 显示模组资料。
+本仓库收录 **1.28 寸 240×240 TFT（SPI · GC9A01）** 显示资料。
 
 **`main` 为导航页**（仓库默认分支）。下表可快速浏览各版本；点击「说明」跳转到本页下方的详细介绍。需要某一版本的完整内容时，请切换到对应**版本分支**（方法见下文）。
 
@@ -39,8 +39,16 @@
 
 | 版本 | 宣传图 | 说明 |
 | ---- | ------ | ---- |
-| YDP128HB001-P8 | <img alt="YDP128HB001-P8" src="./images/YDP128HB001-P8.png" width="120" /> | [查看详情](#ydp128hb001-p8) |
 | YDP128H010-V2 | <img alt="YDP128H010-V2" src="./images/YDP128H010-V2.png" width="120" /> | [查看详情](#ydp128h010-v2) |
+| YDP128HB001-P8 | <img alt="YDP128HB001-P8" src="./images/YDP128HB001-P8.png" width="120" /> | [查看详情](#ydp128hb001-p8) |
+
+---
+
+## YDP128H010-V2
+
+<p align="center"><img alt="YDP128H010-V2" src="./images/YDP128H010-V2.png" width="320" /></p>
+
+**说明：** 单屏。
 
 ---
 
@@ -48,11 +56,7 @@
 
 <p align="center"><img alt="YDP128HB001-P8" src="./images/YDP128HB001-P8.png" width="320" /></p>
 
----
-
-## YDP128H010-V2
-
-<p align="center"><img alt="YDP128H010-V2" src="./images/YDP128H010-V2.png" width="320" /></p>
+**说明：** 模组。
 
 ---
 
