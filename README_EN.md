@@ -2,9 +2,9 @@
 
 <h1 align="center">OSPTEK 1.28″ TFT 240×240 (GC9A01 · SPI)</h1>
 
-<p align="center"><b>Round TFT module · SPI · GC9A01</b></p>
+<p align="center"><b>TFT module · SPI · GC9A01 · Multi-Version Index</b></p>
 
-<p align="center"><a href="./README.md">简体中文</a> | English</p>
+<p align="center">English | <a href="./README.md">简体中文</a></p>
 
 <p align="center">
   <img alt="Size: 1.28 inch" src="https://img.shields.io/badge/Size-1.28%22-3498DB?style=flat-square" />
@@ -13,83 +13,71 @@
   <img alt="Driver: GC9A01" src="https://img.shields.io/badge/Driver-GC9A01-E7352C?style=flat-square" />
 </p>
 
-<p align="center"><img alt="OSPTEK 1.28&quot; 240×240 TFT SPI module (GC9A01) product image" src="./images/product.png" width="640" /></p>
-
 ## Contents
 
-- [Overview](#overview)
-- [Specifications](#specifications)
-- [Sample projects](#sample-projects)
-- [Repository layout](#repository-layout)
-- [Resources](#resources)
-- [Buy](#buy)
+- [About](#about)
+- [Versions](#versions)
+- [YDP128HB001-P8](#ydp128hb001-p8)
+- [YDP128H010-V2](#ydp128h010-v2)
+- [How to Switch Branches](#how-to-switch-branches)
+- [Where to Buy](#where-to-buy)
 - [Support](#support)
 
 ---
 
-## Overview
+## About
 
-OSPTEK **1.28″ 240×240 TFT** is a round **SPI** color display module driven by **GC9A01**. Suited to wearables, round gauges, and compact circular HMI.
+This repository holds materials for the **1.28″ 240×240 TFT (SPI · GC9A01)** module family.
 
-Spec ID (repository name): `1.28-tft-240x240-spi-gc9a01`
+**`main` is the navigation page** (repository default). Use the table below for a quick scan; click **Details** to jump to the section on this page. For a given version’s full content, switch to that **version branch** (see below).
 
-Current module version: **YDP128HB001-P8**. Screen specification follows [`docs/YDP128H010-V2.pdf`](./docs/YDP128H010-V2.pdf); mechanical outline follows [`docs/YDP128HB001-P8 外形图.pdf`](./docs/YDP128HB001-P8%20%E5%A4%96%E5%BD%A2%E5%9B%BE.pdf).
+Repo id: `1.28-tft-240x240-spi-gc9a01`
 
-## Specifications
+---
 
-| Item | Spec |
-| ---- | ---- |
-| Size | 1.28 inch |
-| Type | TFT (color, round) |
-| Resolution | 240×240 |
-| Interface | SPI |
-| Driver IC | GC9A01 |
+## Versions
 
-> Full outline, FPC definition, power, and timing follow the screen datasheet / mechanical drawing / driver IC datasheet.
+| Version | Image | Notes |
+| ------- | ----- | ----- |
+| YDP128HB001-P8 | <img alt="YDP128HB001-P8" src="./images/YDP128HB001-P8.png" width="120" /> | [Details](#ydp128hb001-p8) |
+| YDP128H010-V2 | <img alt="YDP128H010-V2" src="./images/YDP128H010-V2.png" width="120" /> | [Details](#ydp128h010-v2) |
 
-## Sample projects
+---
 
-| Description | Path |
-| ---- | ---- |
-| ESP32-S3 · GC9A01 SPI + LVGL9 (circular UI demo) | [`examples/esp32s3-1.28-tft-240x240-spi-gc9a01-bringup/`](./examples/esp32s3-1.28-tft-240x240-spi-gc9a01-bringup/) |
+## YDP128HB001-P8
 
-## Repository layout
+<p align="center"><img alt="YDP128HB001-P8" src="./images/YDP128HB001-P8.png" width="320" /></p>
 
-```text
-1.28-tft-240x240-spi-gc9a01/
-├── README.md
-├── README_EN.md
-├── MODULE_VERSION.md
-├── LICENSE
-├── images/          # README assets
-├── docs/            # outline, datasheet, init
-└── examples/        # sample projects
-```
+**Notes:** Module.
 
-## Resources
+---
 
-### Product files
+## YDP128H010-V2
 
-| Resource | Link |
-| ---- | ---- |
-| Screen datasheet (YDP128H010-V2) | [`docs/YDP128H010-V2.pdf`](./docs/YDP128H010-V2.pdf) |
-| Mechanical outline (YDP128HB001-P8) | [`docs/YDP128HB001-P8 外形图.pdf`](./docs/YDP128HB001-P8%20%E5%A4%96%E5%BD%A2%E5%9B%BE.pdf) |
-| Driver IC datasheet (GC9A01) | [`docs/LCD_DST_3015_GC_9_A01_Data_Sheet_V1_0_Preliminary_2_35d4b172aa.pdf`](./docs/LCD_DST_3015_GC_9_A01_Data_Sheet_V1_0_Preliminary_2_35d4b172aa.pdf) |
-| Init sequence (text) | [`docs/HSD1.28+GC9A01 initial code 20191231 优美K15.txt`](./docs/HSD1.28+GC9A01%20initial%20code%2020191231%20%E4%BC%98%E7%BE%8EK15.txt) |
+<p align="center"><img alt="YDP128H010-V2" src="./images/YDP128H010-V2.png" width="320" /></p>
 
-### Samples
+**Notes:** Module.
 
-- [ESP32-S3 GC9A01 SPI + LVGL9](./examples/esp32s3-1.28-tft-240x240-spi-gc9a01-bringup/)
+---
 
-## Buy
+## How to Switch Branches
+
+Full product materials are on each **version branch**; `main` is navigation only.
+
+- **Web:** open the branch dropdown at the top left of the repository page and select the branch that matches your part number.
+- **CLI:** after cloning, run `git checkout <version-branch>`; if the repo is already local, `git fetch` first, then switch.
+
+---
+
+## Where to Buy
 
 <p align="center">
-  <a href="https://www.aliexpress.com/store/1105701619"><img alt="AliExpress store" src="https://img.shields.io/badge/AliExpress-Official_Store-FF6A00?style=for-the-badge" /></a>
+  <a href="https://www.aliexpress.com/store/1105701619"><img alt="AliExpress Official Store" src="https://img.shields.io/badge/AliExpress-Official_Store-E62E04?style=for-the-badge&logo=aliexpress&logoColor=white" /></a>
   &nbsp;&nbsp;
-  <a href="https://shop110742373.taobao.com/"><img alt="Taobao store" src="https://img.shields.io/badge/Taobao-Official_Store-FF6A00?style=for-the-badge" /></a>
+  <a href="https://shop110742373.taobao.com/"><img alt="Taobao Official Store" src="https://img.shields.io/badge/Taobao-Official_Store-FF6A00?style=for-the-badge" /></a>
 </p>
 
-**Overseas (AliExpress)**
+**International (AliExpress)**
 
 - Store: [OSPTEK Official Store](https://www.aliexpress.com/store/1105701619)
 
@@ -97,13 +85,15 @@ Current module version: **YDP128HB001-P8**. Screen specification follows [`docs/
 
 - Store: [鱼鹰光电工厂店](https://shop110742373.taobao.com/)
 
+---
+
 ## Support
 
-- Technical support / product inquiry: <luyu@osptek.com>
-- QQ group (China): **985881096**
+- Technical Support / Sales: <luyu@osptek.com>
+- QQ Technical Group: **985881096**
 - Website: <https://osptek.com/>
 - Feel free to open an Issue in this repository if you have any questions
 
 ---
 
-<p align="center"><sub>© 2026 OSPTEK · Materials in this repository are licensed under CC BY 4.0</sub></p>
+<p align="center"><sub>© 2026 OSPTEK · Licensed under CC BY 4.0</sub></p>
