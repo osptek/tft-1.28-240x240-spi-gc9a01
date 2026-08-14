@@ -1,0 +1,295 @@
+/**********初始化**************/
+{
+  	RESET=1;
+  	DELAY_MS(10);
+  	RESET=0; 
+  	DELAY_MS(10);
+  	RESET=1;
+  	DELAY_MS(120);   //延时120ms	
+
+	WriteCmd(0xFE);
+
+	WriteCmd(0xEF);
+ 
+	WriteCmd(0xEB);
+	WriteData(0x14); 
+	
+	WriteCmd(0x84);
+	WriteData(0x40); 
+	
+	WriteCmd(0x85);
+	WriteData(0xF1); 
+	
+	WriteCmd(0x86);
+	WriteData(0x98); 
+	
+	WriteCmd(0x87);
+	WriteData(0x28);
+	
+	WriteCmd(0x88);
+	WriteData(0x0A);
+	
+	WriteCmd(0x89);
+	WriteData(0x21); 
+	
+	WriteCmd(0x8A);
+	WriteData(0x00); 
+	
+	WriteCmd(0x8B);
+	WriteData(0x80); 
+	
+	WriteCmd(0x8C);
+	WriteData(0x01); 
+	
+	WriteCmd(0x8D);
+	WriteData(0x01); 
+	
+	WriteCmd(0x8E);
+	WriteData(0xDF); 
+	
+	WriteCmd(0x8F);
+	WriteData(0x52); 
+	
+	WriteCmd(0xB6);
+	WriteData(0x20); 
+	
+	WriteCmd(0x36);
+	WriteData(0x48);
+	
+	WriteCmd(0x3A);
+	WriteData(0x05); 
+	
+	WriteCmd(0x90);
+	WriteData(0x08);
+	WriteData(0x08);
+	WriteData(0x08);
+	WriteData(0x08); 
+	
+//	WriteCmd(0xBD);
+//	WriteData(0x06);
+	
+//	WriteCmd(0xA6);
+//	WriteData(0x74);
+	
+//	WriteCmd(0xBF);
+//	WriteData(0x1C);
+	
+//	WriteCmd(0xA7);
+//	WriteData(0x45);
+	  
+//	WriteCmd(0xA9);
+//	WriteData(0xBB);
+	
+//	WriteCmd(0xB8);
+//	WriteData(0x63);
+	
+	WriteCmd(0xE8);
+	WriteData(0x34);
+	
+	WriteCmd(0xFF);
+	WriteData(0x60);
+	WriteData(0x01);
+	WriteData(0x04);
+	
+	WriteCmd(0x74);
+	WriteData(0x10);
+	WriteData(0x75);
+	WriteData(0x80);
+	WriteData(0x00);
+	WriteData(0x00);
+	WriteData(0x4E);
+	WriteData(0x00);
+	
+	WriteCmd(0xC3);
+	WriteData(0x14); 
+
+	WriteCmd(0xC4);
+	WriteData(0x14);
+ 
+	WriteCmd(0xC9);
+	WriteData(0x25);
+	
+	WriteCmd(0xBE);
+	WriteData(0x11);
+	
+	WriteCmd(0xBC);
+	WriteData(0x00);
+	
+	WriteCmd(0xE1);
+	WriteData(0x10);
+	WriteData(0x0e);
+	
+	WriteCmd(0xDF);
+	WriteData(0x21);
+	WriteData(0x0c);
+	WriteData(0x02);
+	
+	WriteCmd(0xED);
+	WriteData(0x1B); 
+	WriteData(0x0B); 
+	
+//	WriteCmd(0xAC);
+//	WriteData(0x47); 
+	
+	
+	WriteCmd(0xAE);
+	WriteData(0x77); //影响效果
+
+//	WriteCmd(0xCB);
+//	WriteData(0x02);
+
+	WriteCmd(0xCD);
+	WriteData(0x63);
+	
+	WriteCmd(0x70);
+	WriteData(0x07);
+	WriteData(0x09);
+	WriteData(0x04);
+	WriteData(0x0e);
+	WriteData(0x0F); 
+	WriteData(0x09);
+	WriteData(0x07);
+	WriteData(0x08);
+	WriteData(0x03);
+	
+	WriteCmd(0xf0);
+	WriteData(0x46);
+	WriteData(0x09);
+	WriteData(0x0A);
+	WriteData(0x08);
+	WriteData(0x05);
+	WriteData(0x2C);
+	
+	WriteCmd(0xf1);
+	WriteData(0x46);
+	WriteData(0x76);
+	WriteData(0x76);
+	WriteData(0x32);
+	WriteData(0x36);
+	WriteData(0x9f);	
+	
+	WriteCmd(0xf2);
+	WriteData(0x46);
+	WriteData(0x09);
+	WriteData(0x0A);
+	WriteData(0x08);
+	WriteData(0x05);
+	WriteData(0x2C);
+	
+	WriteCmd(0xf3);
+	WriteData(0x46);
+	WriteData(0x76);
+	WriteData(0x76);
+	WriteData(0x32);
+	WriteData(0x36);
+	WriteData(0x9f);
+	
+	WriteCmd(0x62); 
+	WriteData(0x18); 
+	WriteData(0x0D);
+	WriteData(0x71);
+	WriteData(0xED);
+	WriteData(0x70);
+	WriteData(0x70);
+	WriteData(0x18); 
+	WriteData(0x0F);
+	WriteData(0x71);
+	WriteData(0xEF);
+	WriteData(0x70);
+	WriteData(0x70);
+	
+	WriteCmd(0x63);
+	WriteData(0x18);
+	WriteData(0x11);
+	WriteData(0x71);
+	WriteData(0xF1);
+	WriteData(0x70);
+	WriteData(0x70);
+	WriteData(0x18);
+	WriteData(0x13);
+	WriteData(0x71);
+	WriteData(0xF3);
+	WriteData(0x70);
+	WriteData(0x70);
+	
+	WriteCmd(0x64);
+	WriteData(0x28);
+	WriteData(0x29);
+	WriteData(0xF1);
+	WriteData(0x01);
+	WriteData(0xF1); 
+	WriteData(0x00);
+	WriteData(0x07);
+	
+	WriteCmd(0x66);
+	WriteData(0x3C);
+	WriteData(0x00);
+	WriteData(0xCD);
+	WriteData(0x67);
+	WriteData(0x45);
+	WriteData(0x45);
+	WriteData(0x10);
+	WriteData(0x00);
+	WriteData(0x00);
+	WriteData(0x00);
+	
+	WriteCmd(0x67);
+	WriteData(0x00);
+	WriteData(0x3C);
+	WriteData(0x00);
+	WriteData(0x00);
+	WriteData(0x00);
+	WriteData(0x01);
+	WriteData(0x54);
+	WriteData(0x10);
+	WriteData(0x32);
+	WriteData(0x98);
+
+	WriteCmd(0x98);//add
+	WriteData(0x3e);
+	WriteData(0x07);
+	
+                WriteCmd(0xBA);//TE 设定
+                WriteData(0x80);
+
+	WriteCmd(0x35);
+	WriteCmd(0x21);
+	mdelay(120);
+	WriteCmd(0x11);
+	mdelay(120);				  //延时120ms
+	WriteCmd(0x29);
+	mdelay(20);
+}
+
+/**************设置显示地址*******************/
+{
+	WriteCmd(0x2A);       
+	WriteData(0x00);  
+	WriteData(0x00);  
+	WriteData(0x00);
+	WriteData(0xEF);  
+
+	WriteCmd(0x2B);       
+	WriteData(0x00);
+	WriteData(0x00);  
+	WriteData(0x00);
+	WriteData(0xEF); 
+
+	WriteCmd(0x2C);
+}
+
+/**********SLEEP OUT***************/
+
+{		
+	WriteCmd(0x11);  		//Sleep out	
+	DELAY_MS(120);                  //延时120ms
+                WriteCmd(0x29);
+}
+
+/**********SLEEP IN***************/
+
+{	
+                WriteCmd(0x28);	
+	WriteCmd(0x10);  		//Sleep in	
+	DELAY_MS(120);                  //延时120ms
+}

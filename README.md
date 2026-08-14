@@ -19,7 +19,6 @@
 - [版本一览](#版本一览)
 - [YDP128H010-V2](#ydp128h010-v2)
 - [YDP128HB001-P8](#ydp128hb001-p8)
-- [如何切换分支](#如何切换分支)
 - [购买链接](#购买链接)
 - [技术支持](#技术支持)
 
@@ -29,7 +28,7 @@
 
 本仓库收录 **1.28 寸 240×240 TFT（SPI · GC9A01）** 显示资料。
 
-**`main` 为导航页**（仓库默认分支）。下表可快速浏览各版本；点击「说明」跳转到本页下方的详细介绍。需要某一版本的完整内容时，请切换到对应**版本分支**（方法见下文）。
+**根目录 README 为导航页**。下表可快速浏览各版本；点击「完整资料」进入 `versions/` 下对应**料号文件夹**（产品页、规格书、示例均在该目录内）。
 
 规格标识（仓库名）：`1.28-tft-240x240-spi-gc9a01`
 
@@ -37,35 +36,30 @@
 
 ## 版本一览
 
-| 版本 | 宣传图 | 说明 |
-| ---- | ------ | ---- |
-| YDP128H010-V2 | <img alt="YDP128H010-V2" src="./images/YDP128H010-V2.png" width="120" /> | [查看详情](#ydp128h010-v2) |
-| YDP128HB001-P8 | <img alt="YDP128HB001-P8" src="./images/YDP128HB001-P8.png" width="120" /> | [查看详情](#ydp128hb001-p8) |
+| 版本 | 宣传图 | 简介 | 完整资料 |
+| ---- | ------ | ---- | -------- |
+| YDP128H010-V2 | <img alt="YDP128H010-V2" src="./versions/YDP128H010-V2/images/product.png" width="120" /> | [简介](#ydp128h010-v2) | [完整资料](./versions/YDP128H010-V2/) |
+| YDP128HB001-P8 | <img alt="YDP128HB001-P8" src="./versions/YDP128HB001-P8/images/product.png" width="120" /> | [简介](#ydp128hb001-p8) | [完整资料](./versions/YDP128HB001-P8/) |
 
 ---
 
 ## YDP128H010-V2
 
-<p align="center"><img alt="YDP128H010-V2" src="./images/YDP128H010-V2.png" width="320" /></p>
+<p align="center"><img alt="YDP128H010-V2" src="./versions/YDP128H010-V2/images/product.png" width="320" /></p>
 
 **说明：** 单屏。
+
+完整产品页、规格书与示例：[versions/YDP128H010-V2/](./versions/YDP128H010-V2/)
 
 ---
 
 ## YDP128HB001-P8
 
-<p align="center"><img alt="YDP128HB001-P8" src="./images/YDP128HB001-P8.png" width="320" /></p>
+<p align="center"><img alt="YDP128HB001-P8" src="./versions/YDP128HB001-P8/images/product.png" width="320" /></p>
 
 **说明：** 模组，所用单屏型号为 YDP128H010-V2。
 
----
-
-## 如何切换分支
-
-完整产品资料在各**版本分支**中；`main` 仅作导航。
-
-- **网页：** 在仓库页左上角打开分支下拉框，选择与料号对应的版本分支即可。
-- **命令行：** 克隆本仓库后执行 `git checkout <版本分支名>`；若本地已有仓库，先 `git fetch` 再切换。
+完整产品页、规格书与示例：[versions/YDP128HB001-P8/](./versions/YDP128HB001-P8/)
 
 ---
 
