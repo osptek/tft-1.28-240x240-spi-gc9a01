@@ -30,7 +30,7 @@ This repository holds materials for the **1.28″ 240×240 TFT (SPI · GC9A01)**
 
 The **root README is the navigation page**. Use the table below for a quick scan; open **Full docs** to enter that **part-number folder** under `versions/` (product page, datasheets, and examples live there).
 
-Repo id: `1.28-tft-240x240-spi-gc9a01`
+Repo id: `tft-1.28-240x240-spi-gc9a01`
 
 ---
 

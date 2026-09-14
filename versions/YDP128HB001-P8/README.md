@@ -31,7 +31,7 @@
 
 OSPTEK **1.28 寸 240×240 TFT** 是一款 **SPI** 接口彩色圆形显示模组，显示驱动为 **GC9A01**。适合穿戴表盘、圆形仪表与小型圆形 HMI 等场景。
 
-规格标识（仓库名）：`1.28-tft-240x240-spi-gc9a01`
+规格标识（仓库名）：`tft-1.28-240x240-spi-gc9a01`
 
 当前模组版本：**YDP128HB001-P8**。屏幕规格以 [`docs/YDP128H010-V2.pdf`](./docs/YDP128H010-V2.pdf) 为准；外形以 [`docs/YDP128HB001-P8 外形图.pdf`](./docs/YDP128HB001-P8%20%E5%A4%96%E5%BD%A2%E5%9B%BE.pdf) 为准。
 
@@ -51,12 +51,12 @@ OSPTEK **1.28 寸 240×240 TFT** 是一款 **SPI** 接口彩色圆形显示模�
 
 | 说明 | 路径 |
 | ---- | ---- |
-| ESP32-S3 · GC9A01 SPI + LVGL9（圆形 UI 动画演示） | [`examples/esp32s3-1.28-tft-240x240-spi-gc9a01-bringup/`](./examples/esp32s3-1.28-tft-240x240-spi-gc9a01-bringup/) |
+| ESP32-S3 · GC9A01 SPI + LVGL9（圆形 UI 动画演示） | [`examples/esp32s3-tft-1.28-240x240-spi-gc9a01-bringup/`](./examples/esp32s3-tft-1.28-240x240-spi-gc9a01-bringup/) |
 
 ## 仓库结构
 
 ```text
-1.28-tft-240x240-spi-gc9a01/                                # 仓库根（导航见 ../../README.md）
+tft-1.28-240x240-spi-gc9a01/                                # 仓库根（导航见 ../../README.md）
 └── versions/
     └── YDP128HB001-P8/                                # 本料号完整资料
         ├── README.md
@@ -79,7 +79,7 @@ OSPTEK **1.28 寸 240×240 TFT** 是一款 **SPI** 接口彩色圆形显示模�
 
 ### 示例工程
 
-- [ESP32-S3 GC9A01 SPI + LVGL9](./examples/esp32s3-1.28-tft-240x240-spi-gc9a01-bringup/)
+- [ESP32-S3 GC9A01 SPI + LVGL9](./examples/esp32s3-tft-1.28-240x240-spi-gc9a01-bringup/)
 
 ## 购买链接
 

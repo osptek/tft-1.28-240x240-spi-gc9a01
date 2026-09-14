@@ -31,7 +31,7 @@
 
 OSPTEK **1.28″ 240×240 TFT** is a round **SPI** color display module driven by **GC9A01**. Suited to wearables, round gauges, and compact circular HMI.
 
-Spec ID (repository name): `1.28-tft-240x240-spi-gc9a01`
+Spec ID (repository name): `tft-1.28-240x240-spi-gc9a01`
 
 Current module version: **YDP128HB001-P8**. Screen specification follows [`docs/YDP128H010-V2.pdf`](./docs/YDP128H010-V2.pdf); mechanical outline follows [`docs/YDP128HB001-P8 外形图.pdf`](./docs/YDP128HB001-P8%20%E5%A4%96%E5%BD%A2%E5%9B%BE.pdf).
 
@@ -51,12 +51,12 @@ Current module version: **YDP128HB001-P8**. Screen specification follows [`docs/
 
 | Description | Path |
 | ---- | ---- |
-| ESP32-S3 · GC9A01 SPI + LVGL9 (circular UI demo) | [`examples/esp32s3-1.28-tft-240x240-spi-gc9a01-bringup/`](./examples/esp32s3-1.28-tft-240x240-spi-gc9a01-bringup/) |
+| ESP32-S3 · GC9A01 SPI + LVGL9 (circular UI demo) | [`examples/esp32s3-tft-1.28-240x240-spi-gc9a01-bringup/`](./examples/esp32s3-tft-1.28-240x240-spi-gc9a01-bringup/) |
 
 ## Repository layout
 
 ```text
-1.28-tft-240x240-spi-gc9a01/                                # repo root (nav: ../../README_EN.md)
+tft-1.28-240x240-spi-gc9a01/                                # repo root (nav: ../../README_EN.md)
 └── versions/
     └── YDP128HB001-P8/                                # full materials for this part number
         ├── README.md
@@ -79,7 +79,7 @@ Current module version: **YDP128HB001-P8**. Screen specification follows [`docs/
 
 ### Samples
 
-- [ESP32-S3 GC9A01 SPI + LVGL9](./examples/esp32s3-1.28-tft-240x240-spi-gc9a01-bringup/)
+- [ESP32-S3 GC9A01 SPI + LVGL9](./examples/esp32s3-tft-1.28-240x240-spi-gc9a01-bringup/)
 
 ## Buy
 
