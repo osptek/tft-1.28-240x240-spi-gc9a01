@@ -1,0 +1,18 @@
+id: tft-1.28-240x240-spi-gc9a01
+category: displays
+
+size: "1.28"
+panel: tft
+resolution: 240x240
+interface: [spi]
+shape: round
+
+versions:
+  - id: YDP128H010-V2
+    driver: GC9A01
+    touch: none
+    note: none
+  - id: YDP128HB001-P8
+    driver: GC9A01
+    touch: none
+    note: Module; bare panel model is YDP128H010-V2.
