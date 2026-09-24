@@ -19,6 +19,9 @@
 - [版本一览](#版本一览)
 - [YDP128H010-V2](#ydp128h010-v2)
 - [YDP128HB001-P8](#ydp128hb001-p8)
+- [YDP128H004-V3](#ydp128h004-v3)
+- [YDP128H005-V3](#ydp128h005-v3)
+- [YDP128H011-V3](#ydp128h011-v3)
 - [购买链接](#购买链接)
 - [技术支持](#技术支持)
 
@@ -38,6 +41,9 @@
 
 | 版本 | 宣传图 | 简介 | 完整资料 |
 | ---- | ------ | ---- | -------- |
+| YDP128H011-V3 | <img alt="YDP128H011-V3" src="./versions/YDP128H011-V3/images/product.png" width="120" /> | [简介](#ydp128h011-v3) | [完整资料](./versions/YDP128H011-V3/) |
+| YDP128H005-V3 | <img alt="YDP128H005-V3" src="./versions/YDP128H005-V3/images/product.png" width="120" /> | [简介](#ydp128h005-v3) | [完整资料](./versions/YDP128H005-V3/) |
+| YDP128H004-V3 | <img alt="YDP128H004-V3" src="./versions/YDP128H004-V3/images/product.png" width="120" /> | [简介](#ydp128h004-v3) | [完整资料](./versions/YDP128H004-V3/) |
 | YDP128H010-V2 | <img alt="YDP128H010-V2" src="./versions/YDP128H010-V2/images/product.png" width="120" /> | [简介](#ydp128h010-v2) | [完整资料](./versions/YDP128H010-V2/) |
 | YDP128HB001-P8 | <img alt="YDP128HB001-P8" src="./versions/YDP128HB001-P8/images/product.png" width="120" /> | [简介](#ydp128hb001-p8) | [完整资料](./versions/YDP128HB001-P8/) |
 
@@ -60,6 +66,36 @@
 **说明：** 模组，所用单屏型号为 YDP128H010-V2。
 
 完整产品页、规格书与示例：[versions/YDP128HB001-P8/](./versions/YDP128HB001-P8/)
+
+---
+
+## YDP128H004-V3
+
+<p align="center"><img alt="YDP128H004-V3" src="./versions/YDP128H004-V3/images/product.png" width="320" /></p>
+
+**说明：** 4-line SPI，无触摸。
+
+完整产品页、规格书与示例：[versions/YDP128H004-V3/](./versions/YDP128H004-V3/)
+
+---
+
+## YDP128H005-V3
+
+<p align="center"><img alt="YDP128H005-V3" src="./versions/YDP128H005-V3/images/product.png" width="320" /></p>
+
+**说明：** 4-line SPI，无触摸。
+
+完整产品页、规格书与示例：[versions/YDP128H005-V3/](./versions/YDP128H005-V3/)
+
+---
+
+## YDP128H011-V3
+
+<p align="center"><img alt="YDP128H011-V3" src="./versions/YDP128H011-V3/images/product.png" width="320" /></p>
+
+**说明：** 4-line SPI，无触摸。
+
+完整产品页、规格书与示例：[versions/YDP128H011-V3/](./versions/YDP128H011-V3/)
 
 ---
 

@@ -16,3 +16,15 @@ versions:
     driver: GC9A01
     touch: none
     note: Module; bare panel model is YDP128H010-V2.
+  - id: YDP128H004-V3
+    driver: GC9A01
+    touch: none
+    note: 4-line SPI, no touch
+  - id: YDP128H005-V3
+    driver: GC9A01
+    touch: none
+    note: 4-line SPI, no touch
+  - id: YDP128H011-V3
+    driver: GC9A01
+    touch: none
+    note: 4-line SPI, no touch

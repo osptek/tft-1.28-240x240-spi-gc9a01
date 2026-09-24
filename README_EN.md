@@ -19,6 +19,9 @@
 - [Versions](#versions)
 - [YDP128H010-V2](#ydp128h010-v2)
 - [YDP128HB001-P8](#ydp128hb001-p8)
+- [YDP128H004-V3](#ydp128h004-v3)
+- [YDP128H005-V3](#ydp128h005-v3)
+- [YDP128H011-V3](#ydp128h011-v3)
 - [Where to Buy](#where-to-buy)
 - [Support](#support)
 
@@ -38,6 +41,9 @@ Repo id: `tft-1.28-240x240-spi-gc9a01`
 
 | Version | Image | Summary | Full docs |
 | ------- | ----- | ------- | --------- |
+| YDP128H011-V3 | <img alt="YDP128H011-V3" src="./versions/YDP128H011-V3/images/product.png" width="120" /> | [Summary](#ydp128h011-v3) | [Full docs](./versions/YDP128H011-V3/) |
+| YDP128H005-V3 | <img alt="YDP128H005-V3" src="./versions/YDP128H005-V3/images/product.png" width="120" /> | [Summary](#ydp128h005-v3) | [Full docs](./versions/YDP128H005-V3/) |
+| YDP128H004-V3 | <img alt="YDP128H004-V3" src="./versions/YDP128H004-V3/images/product.png" width="120" /> | [Summary](#ydp128h004-v3) | [Full docs](./versions/YDP128H004-V3/) |
 | YDP128H010-V2 | <img alt="YDP128H010-V2" src="./versions/YDP128H010-V2/images/product.png" width="120" /> | [Summary](#ydp128h010-v2) | [Full docs](./versions/YDP128H010-V2/) |
 | YDP128HB001-P8 | <img alt="YDP128HB001-P8" src="./versions/YDP128HB001-P8/images/product.png" width="120" /> | [Summary](#ydp128hb001-p8) | [Full docs](./versions/YDP128HB001-P8/) |
 
@@ -60,6 +66,36 @@ Full product page, datasheets, and examples: [versions/YDP128H010-V2/](./version
 **Notes:** Module; bare panel model is YDP128H010-V2.
 
 Full product page, datasheets, and examples: [versions/YDP128HB001-P8/](./versions/YDP128HB001-P8/)
+
+---
+
+## YDP128H004-V3
+
+<p align="center"><img alt="YDP128H004-V3" src="./versions/YDP128H004-V3/images/product.png" width="320" /></p>
+
+**Notes:** 4-line SPI, no touch.
+
+Full product page, datasheets, and examples: [versions/YDP128H004-V3/](./versions/YDP128H004-V3/)
+
+---
+
+## YDP128H005-V3
+
+<p align="center"><img alt="YDP128H005-V3" src="./versions/YDP128H005-V3/images/product.png" width="320" /></p>
+
+**Notes:** 4-line SPI, no touch.
+
+Full product page, datasheets, and examples: [versions/YDP128H005-V3/](./versions/YDP128H005-V3/)
+
+---
+
+## YDP128H011-V3
+
+<p align="center"><img alt="YDP128H011-V3" src="./versions/YDP128H011-V3/images/product.png" width="320" /></p>
+
+**Notes:** 4-line SPI, no touch.
+
+Full product page, datasheets, and examples: [versions/YDP128H011-V3/](./versions/YDP128H011-V3/)
 
 ---
 
